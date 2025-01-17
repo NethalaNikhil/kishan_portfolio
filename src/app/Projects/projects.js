@@ -9,8 +9,8 @@ export default function Projects() {
     return (
         <div className="h-screen bg-gradient-to-b from-black via-black/95 to-gray text-white ">
             <div className="ms-[40px] pt-40">
-                <p className={`${inder.className} text-6xl mt-10 ps-52`}>Projects</p>
-                <div className="grid grid-cols-3 gap-4 items-center ms-20 mt-14">
+                <p className={`${inder.className} text-6xl  ps-52`}>Projects</p>
+                <div className="grid grid-cols-3 gap-4 justify-items-center ms-16 mt-14">
                     {/* Project 1 */}
                     <div>
                         <img
@@ -53,7 +53,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-                <p className='flex justify-end me-8 mt-4 '>few more...</p>
+                <p className='flex justify-end me-14 mt-4 '>few more...</p>
             </div>
         </div>
     );
